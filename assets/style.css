@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    background-color:  #94D3C2;
+}
+
+/*Styling for navigation bar*/
+.navbar {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #94D3C2;
+	color: black;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	padding: 5px;
+	-webkit-transition: all 0.3s;
+	z-index: 100;
+	height: 80px;
+	opacity: 0.8;
+}
+
+.navlink {
+    padding: 10px;
+    float: left;
+    position: relative;
+    left: 60%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    border-radius: 2px;
+    font-size: 20px;
+    margin-left: 30px;
+    top: 35%;
+}
+
+.navlink:hover {
+	background-color:white;
+	color:#cc3333;
+}
+
+img#logo {
+    width: 200px;
+    height: 75px;
+    position: relative;
+    top: calc(50% - 37.5px);
+}
+
+
+/*.carousel-container {
+    height: 427px;
+    margin: 0 auto;
+    width: 640px;
+    position: relative;
+    top: 200px;
+    border: 5px ridge rgba(153,0,0,0.8);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carousel {
+    width: 3200px;
+    height: 100%;
+    margin-left:0px;
+    -webkit-transition: all 0.6s;
+}
+
+.carousel-item {
+    float: left;
+    position:relative;
+}
+*/
+/*.next {
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor:pointer;
+    -webkit-transition: all 0.3s;
+}*/
+
+/*Styling for cover image*/
+.cover-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* opacity: 0.5; */
+    z-index: 150;
+    /* opacity: 0.5; */
+}
+
+.cover {
+    width: 100%;
+    /* height: 861px; */
+    /* z-index: 0; */
+    height: 861px;
+    /* display: none; */
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* top: 0px; */
+    /* z-index: 0; */
+    /* display: none; */
+    /* background-color: black; */
+    opacity: 0.75;
+}
+
+
+img#cover-image {
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px #94D3C2 groove;
+}
+
+
+/*Styling for main container */
+.container {
+    width: 960px;
+    height: 100%;
+    position: absolute;
+    top: 500px;
+    left: calc(50% - 480px);
+    background-color: white;
+    border: 5px #94D3C2 solid;
+}
